@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.7.8 on win32)" generated="20220725 16:19:38.880" rpa="false" schemaversion="3">
+<suite id="s1" name="Test Demo6" source="C:\Users\PINTU\workspace_python\robot_framework\tests\test_demo6.robot">
+<test id="s1-t1" name="TC1" line="19">
+<kw name="Open the browser with mortgage payments url" library="generic" type="SETUP">
+<kw name="Create Webdriver" library="SeleniumLibrary">
+<arg>${browser}</arg>
+<doc>Creates an instance of Selenium WebDriver.</doc>
+<msg timestamp="20220725 16:19:39.207" level="INFO">Creating an instance of the Firefox WebDriver.</msg>
+<msg timestamp="20220725 16:19:41.757" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<msg timestamp="20220725 16:19:41.758" level="FAIL">WebDriverException: Message: Service geckodriver unexpectedly exited. Status code was: 64
+</msg>
+<status status="FAIL" starttime="20220725 16:19:39.207" endtime="20220725 16:19:41.823"/>
+</kw>
+<kw name="Go To" library="SeleniumLibrary">
+<arg>${url}</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="NOT RUN" starttime="20220725 16:19:41.823" endtime="20220725 16:19:41.823"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="NOT RUN" starttime="20220725 16:19:41.824" endtime="20220725 16:19:41.824"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220725 16:19:41.824" endtime="20220725 16:19:41.824"/>
+</kw>
+<status status="FAIL" starttime="20220725 16:19:39.207" endtime="20220725 16:19:41.824"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20220725 16:19:41.825" endtime="20220725 16:19:41.825"/>
+</kw>
+<doc>Validate unsuccessful login</doc>
+<tag>Regression</tag>
+<tag>Smoke</tag>
+<status status="FAIL" starttime="20220725 16:19:39.205" endtime="20220725 16:19:41.826">Setup failed:
+WebDriverException: Message: Service geckodriver unexpectedly exited. Status code was: 64
+</status>
+</test>
+<test id="s1-t2" name="TC2" line="27">
+<kw name="Open the browser with mortgage payments url" library="generic" type="SETUP">
+<kw name="Create Webdriver" library="SeleniumLibrary">
+<arg>${browser}</arg>
+<doc>Creates an instance of Selenium WebDriver.</doc>
+<msg timestamp="20220725 16:19:41.830" level="INFO">Creating an instance of the Firefox WebDriver.</msg>
+<msg timestamp="20220725 16:19:44.371" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<msg timestamp="20220725 16:19:44.371" level="FAIL">WebDriverException: Message: Service geckodriver unexpectedly exited. Status code was: 64
+</msg>
+<status status="FAIL" starttime="20220725 16:19:41.830" endtime="20220725 16:19:44.372"/>
+</kw>
+<kw name="Go To" library="SeleniumLibrary">
+<arg>${url}</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="NOT RUN" starttime="20220725 16:19:44.372" endtime="20220725 16:19:44.372"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="NOT RUN" starttime="20220725 16:19:44.372" endtime="20220725 16:19:44.372"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20220725 16:19:44.373" endtime="20220725 16:19:44.373"/>
+</kw>
+<status status="FAIL" starttime="20220725 16:19:41.829" endtime="20220725 16:19:44.373"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20220725 16:19:44.374" endtime="20220725 16:19:44.374"/>
+</kw>
+<doc>Validate cards displayed in shopping page</doc>
+<tag>Regression</tag>
+<status status="FAIL" starttime="20220725 16:19:41.827" endtime="20220725 16:19:44.374">Setup failed:
+WebDriverException: Message: Service geckodriver unexpectedly exited. Status code was: 64
+</status>
+</test>
+<doc>To validate the login form</doc>
+<status status="FAIL" starttime="20220725 16:19:38.883" endtime="20220725 16:19:44.376"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="2" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="2" skip="0">Regression</stat>
+<stat pass="0" fail="1" skip="0">Smoke</stat>
+</tag>
+<suite>
+<stat pass="0" fail="2" skip="0" id="s1" name="Test Demo6">Test Demo6</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

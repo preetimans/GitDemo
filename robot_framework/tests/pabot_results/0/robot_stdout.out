@@ -1,0 +1,9 @@
+==============================================================================
+Test Demo6 :: To validate the login form                                      
+==============================================================================
+TC1 :: Validate unsuccessful login                                    | PASS |
+------------------------------------------------------------------------------
+Test Demo6 :: To validate the login form                              | PASS |
+1 test, 1 passed, 0 failed
+==============================================================================
+Output:  C:\Users\PINTU\workspace_python\robot_framework\tests\pabot_results\0\output.xml
